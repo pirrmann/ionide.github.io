@@ -27,7 +27,7 @@ on 32-bit Windows is `C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0`.
 
 [You can download F# 4.0 here for Windows](https://www.microsoft.com/en-us/download/details.aspx?id=48179)
 
-If you use [chocolatey](chocolatey.org), you can install all the pre-requisites easily:
+If you use [chocolatey](https://chocolatey.org/), you can install all the pre-requisites easily:
 
     choco install windows-sdk-8.0 -y
     choco install visualfsharptools -y
