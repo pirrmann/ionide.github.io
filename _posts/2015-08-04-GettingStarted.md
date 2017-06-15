@@ -27,14 +27,12 @@ on 32-bit Windows is `C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0`.
 
 [You can download F# 4.0 here for Windows](https://www.microsoft.com/en-us/download/details.aspx?id=48179)
 
-[Install the Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159&wa=wsignin1.0)
-
 If you use [chocolatey](https://chocolatey.org/), you can install all the pre-requisites easily:
 
 ```batch
 choco install windows-sdk-8.0 -y
 choco install visualfsharptools -y
-choco install microsoft-build-tools -y
+choco install microsoft-build-tools --version 14.0.25420.1 -y
 :: for vscode
 choco install visualstudiocode -y
 :: for atom
